@@ -1,12 +1,10 @@
 # Community QR codes
 
-`octop-group-light-YYYYMMDD.jpg` and `octop-group-dark-YYYYMMDD.jpg` are the WeChat group QR codes shown in the repository READMEs.
+`octop-group-20261026.jpg` is the current WeChat group QR code shown in `README.md`, `README_CN.md` and `README_EN.md`. It preserves the supplied image without altering the QR pattern and is used in both light and dark mode.
 
-The group invite expires after about 7 days. To refresh:
+Group invites expire; the current image states that it is valid before November 2, 2026. To refresh:
 
-1. Export the new light and dark QR codes.
-2. Add them here with the new date suffix.
-3. Update the image paths and date in `README.md` and `README_CN.md`.
-4. Keep the previous files until the new code is verified.
-
-The README uses `<picture>` with `prefers-color-scheme` so GitHub light mode shows the light code and dark mode shows the dark code.
+1. Obtain a fresh group invite image without redrawing or regenerating the QR pattern.
+2. Save it here as `octop-group-YYYYMMDD.jpg` with the refresh date.
+3. Update the image paths in all three READMEs and the validity information here.
+4. Verify the new image and remove unreferenced expired QR images.
