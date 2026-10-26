@@ -11,11 +11,11 @@
         <key>CFBundleIdentifier</key>
         <string>io.github.colorai.octop.enterprise</string>
         <key>CFBundleVersion</key>
-        <string>1.0.1b1.dev</string>
+        <string>1.0.1b2.dev</string>
         <key>CFBundleGetInfoString</key>
         <string>Octop Enterprise desktop shell (dev)</string>
         <key>CFBundleShortVersionString</key>
-        <string>1.0.1b1.dev</string>
+        <string>1.0.1b2.dev</string>
         <key>CFBundleIconFile</key>
         <string>icons</string>
         <key>LSMinimumSystemVersion</key>
@@ -31,5 +31,7 @@
             <key>NSAllowsLocalNetworking</key>
             <true/>
         </dict>
+        <key>NSLocalNetworkUsageDescription</key>
+        <string>Octop Enterprise 需要访问本地网络以连接您选择的企业服务器，完成登录、消息同步和工作任务。 / Connect to your selected company server for sign-in, messaging and work tasks.</string>
     </dict>
 </plist>
